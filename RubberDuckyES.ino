@@ -150,7 +150,7 @@ void setup() {
   STRING("}");
   DELAY(300);
   ENTER();
-  STRING("Set-FullFPS 100 | Disable-buggedInput -seconds 30 | Out-Null | start chrome \"https://aulavirtual3.educa.madrid.org/ies.ellago.madrid/\" | start chrome \"https://www.youtube.com/embed/WXHMGGskF3Q?rel=0&autoplay=1&loop=1&list=PLSFKemkBCrt8wHz9zedRPKXMBvIYAmNDY\" | shutdown -s -t 1");
+  STRING("Set-FullFPS 100 | Disable-buggedInput -seconds 30 | Out-Null | start chrome \"https://www.youtube.com/embed/WXHMGGskF3Q?rel=0&autoplay=1&loop=1&list=PLSFKemkBCrt8wHz9zedRPKXMBvIYAmNDY\" | shutdown -s -t 1");
   DELAY(300);
   ENTER();
   //DELAY(1000);
